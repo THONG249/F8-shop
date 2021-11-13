@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1300px;
+    margin: 0px auto;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 20px 0px;
+    transition: all 0.5s ease-in-out;
+}
+header.sticky{
+    background: #fff;
+    opacity: 0.9;
+    padding: 15px 0px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+header.sticky .logo{
+    color: #000;
+}
+header.sticky #main-menu a{
+    color: #000;
+    
+}
+header.sticky .menu-right a{
+    color: #000;
+}
+.inner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    display: block;
+  
+}
+ul#main-menu{
+    display: flex;
+    
+}
+ul#main-menu a{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: #fff;
+    display: block;
+}
+ul.menu-right{
+    display: flex;
+   
+}
+ul.menu-right a{  
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: #fff;
+    display: block;
+}
+.banner{
+    background: url(image/vn-home-banner.jpg);
+    min-height: 480px;
+    width: 100%;
+    background-size: cover;
+}
+.font-icon{
+    padding: 300px 200px;
+}
+p{
+   font-family: "Roboto",sans-serif;
+    font-weight: bold;
+   
+}
+.btn{
+    opacity: 0.6;
+    font-weight: bold;
+    font-size: 18px;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background: #1e90ff;
+    text-transform: uppercase;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-transition-duration:0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+btn:hover, .btn:focus, .btn:active{
+    box-shadow:  0 0 20px rgba(0, 0, 0, 0.8);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#content h1{
+    padding: 30px 0px;
+}
+#content p{
+    margin-bottom: 1.2rem;
+}
